@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1016" height="60" viewBox="0 0 1016 60">
+  <g id="Group_824" data-name="Group 824" transform="translate(-536.384 -2258.695)">
+    <g id="bg_tab_menu_" data-name="bg tab menu " transform="translate(536.384 2258.695)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="1016" height="60" rx="16" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1015" height="59" rx="15.5" fill="none"/>
+    </g>
+    <path id="btn_active_" data-name="btn active " d="M0,0H343a16,16,0,0,1,16,16V44a16,16,0,0,1-16,16H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1193.384 2258.695)"/>
+    <text id="After_attending_the_course" data-name="After attending the course" transform="translate(613.384 2294.695)" fill="#0f0f0f" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">After attending the course</tspan></text>
+    <text id="Before_attending_the_course" data-name="Before attending the course" transform="translate(1264.384 2294.695)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Before attending the course</tspan></text>
+    <text id="During_the_period" data-name="During the period" transform="translate(972.384 2295.695)" fill="#0f0f0f" font-size="19" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">During the period</tspan></text>
+    <g id="btn_active_2" data-name="btn active " transform="translate(895.384 2258.695)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="298" height="60" stroke="none"/>
+      <rect x="0.5" y="0.5" width="297" height="59" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,443 @@
+/* This media query is used only for mobile devices */
+@media only screen and (max-width: 767px) {
+  .nav_wrapper {
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    padding: 20px 35px;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .hamburger {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  .nav_wrapper--button {
+    display: none;
+  }
+  .toggled {
+    display: block;
+    background: purple;
+  }
+  .container_radius {
+    height: 860px;
+    padding: 0px 10px;
+  }
+  .product_wrapper {
+    padding: 0 0 0 0;
+  }
+  .product_wrapper h1 {
+    font-size: 33px;
+    text-align: center;
+  }
+  .product_wrapper h3 {
+    padding: 15px 0 12px 0px;
+    font-size: 25px;
+    text-align: center;
+    background-size: cover;
+  }
+  .product_wrapper p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 22px;
+  }
+  .product_button {
+    padding: 10px 10px;
+  }
+  .product_wrapper img {
+    margin-top: 30px;
+  }
+  .about_section {
+    margin-top: 180px;
+  }
+  .about_wrapper {
+    padding: 0px 10px;
+  }
+  .about_content {
+    flex-direction: column;
+  }
+  .about_content h3 {
+    padding: 51px 90px 30px 90px;
+    background-position: center;
+  }
+  .course_wrapper {
+    padding: 0px 10px;
+  }
+  .course_section {
+    margin-top: 70px;
+  }
+  .course_buttons {
+    flex-direction: column;
+    margin: 30px 0;
+    text-align: center;
+  }
+  .course_buttons a:nth-child(2) {
+    border: 1px solid;
+    border-right: none;
+    border-left: none;
+  }
+  .course_wrapper h4 {
+    padding: 70px 56px 45px 56px;
+    background-position: center;
+    background-size: contain;
+  }
+  .course_paragraph {
+    flex-direction: column;
+    padding: 0 0 0 0;
+  }
+  .course_paragraph p {
+    margin-left: 0;
+  }
+  .session__content {
+    flex-direction: column;
+    margin-left: 0px;
+    height: auto;
+  }
+  .session__content h5 {
+    margin: 15px 0 15px 0;
+  }
+  .session__content h5::before {
+    display: none;
+  }
+  .session__content p {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .session__thumb {
+    flex-direction: column;
+  }
+  .session__thumb img {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .session__thumb p {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .session_text,
+  .master_text,
+  .fee_wrapper {
+    margin: 50px 0px;
+  }
+  .session_text h3 {
+    padding: 70px 56px 45px 56px;
+    background-position: center;
+    background-size: contain;
+  }
+  .master_text h5 {
+    padding: 70px 56px 45px 56px;
+    background-position: center;
+    background-size: contain;
+  }
+  .box__thumb-icons {
+    width: 100%;
+    height: 65%;
+  }
+  .faq_wrapper {
+    margin-top: 0px;
+  }
+  .faq_wrapper h3 {
+    font-size: 29px;
+    padding: 70px 0px 45px 0px;
+    background-position: center;
+    background-size: contain;
+  }
+  .question_box {
+    padding: 31px 5px;
+  }
+  .question_box p {
+    font-size: 16px;
+  }
+  .fee_title {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .fee_title h2 {
+    padding: 70px 0px 45px 0px;
+    background-position: center;
+    background-size: contain;
+  }
+  .title_wrapper {
+    padding: 0;
+    flex-direction: column;
+  }
+  .fee__content {
+    margin: 0;
+  }
+  .fee__thumb {
+    width: auto;
+  }
+  .contact_wrapper {
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .contact__content,
+  .contact__content input {
+    margin-right: 0px;
+    width: auto;
+  }
+  .contact__content p,
+  .contact__content span {
+    font-size: 16px;
+  }
+  .contact__content h3 {
+    font-size: 33px;
+    padding-top: 50px;
+  }
+  .contact__logos {
+    width: auto;
+    height: auto;
+    position: static;
+    background-size: contain;
+    margin-top: 20px;
+  }
+  .project_title h3 {
+    padding: 47px 0px;
+    margin: 50px 0px;
+    background-size: cover;
+  }
+  .project__wrapper {
+    flex-direction: column;
+  }
+  .left__side {
+    padding-right: 0px;
+  }
+  .left__side h4 {
+    font-size: 34px;
+  }
+  .left__side p {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .left__side ul li::before {
+    transform: translate(0px, 0px);
+  }
+  .schedule_title h4 {
+    font-size: 30px;
+    padding: 70px 56px 45px 56px;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .schedule__semicontent {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .schedule__semicontent p {
+    font-size: 20px;
+  }
+  .schedule__content {
+    flex-direction: column;
+  }
+  .border__content {
+    margin-bottom: 50px;
+    padding: 40px 0 40px 10px;
+    justify-content: center;
+  }
+  .border__content p {
+    font-size: 25px;
+    padding-right: 15px;
+  }
+  .schedule__signup {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .footerWrap {
+    flex-direction: column;
+    height: auto;
+  }
+}
+/* This media query is used only for small tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+  .nav_wrapper {
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    padding: 20px 35px;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .hamburger {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  .nav_wrapper--button {
+    display: none;
+  }
+  .toggled {
+    display: block;
+    background: purple;
+  }
+  .container_radius {
+    height: 500px;
+    padding: 0px 10px;
+  }
+  .product_wrapper {
+    padding: 0 0 0 0;
+  }
+  .product_wrapper h1 {
+    font-size: 33px;
+    text-align: center;
+  }
+  .product_wrapper h3 {
+    padding: 15px 0 12px 0px;
+    font-size: 25px;
+    text-align: center;
+    background-size: cover;
+  }
+  .product_wrapper p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 22px;
+  }
+  .product_button {
+    padding: 10px 10px;
+  }
+  .product_wrapper img {
+    margin-top: 30px;
+  }
+  .about_wrapper {
+    padding: 0px 30px;
+  }
+  .about_content {
+    flex-direction: column;
+  }
+  .course_paragraph {
+    padding: 0;
+  }
+  .session__content h5 {
+    font-size: 21px;
+    margin-right: 75px;
+  }
+  .session__content p {
+    margin-right: 25px;
+  }
+  .session__thumb p {
+    margin-left: 100px;
+  }
+  .title_wrapper {
+    padding: 0px 20px;
+  }
+  .contact_wrapper {
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .contact__content,
+  .contact__content input {
+    margin-right: 0px;
+    width: auto;
+  }
+  .contact__content p,
+  .contact__content span {
+    font-size: 16px;
+  }
+  .contact__logos {
+    width: auto;
+    height: auto;
+    position: static;
+    margin-top: 20px;
+  }
+  .right__side {
+    display: none;
+  }
+  .schedule__content {
+    flex-direction: column;
+  }
+}
+/* This media query is used only for big tablet devices */
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  .nav_wrapper li {
+    margin-right: 20px;
+  }
+  .container_radius {
+    height: 500px;
+    padding: 0px 10px;
+  }
+  .product_wrapper {
+    padding: 0 0 0 0;
+  }
+  .product_wrapper h1 {
+    font-size: 33px;
+    text-align: center;
+  }
+  .product_wrapper h3 {
+    padding: 15px 0 12px 0px;
+    font-size: 25px;
+    text-align: center;
+    background-size: cover;
+  }
+  .product_wrapper p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 22px;
+  }
+  .product_button {
+    padding: 10px 10px;
+  }
+  .product_wrapper img {
+    margin-top: 30px;
+  }
+  .about_wrapper {
+    padding: 0px 30px;
+  }
+  .about_content {
+    flex-direction: column;
+  }
+  .course_paragraph {
+    padding: 0;
+  }
+  .session__content h5 {
+    font-size: 21px;
+    margin-right: 75px;
+  }
+  .session__content p {
+    margin-right: 25px;
+  }
+  .session__thumb p {
+    margin-left: 100px;
+  }
+  .title_wrapper {
+    padding: 0px 20px;
+  }
+  .contact_wrapper {
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .contact__content,
+  .contact__content input {
+    margin-right: 0px;
+    width: auto;
+  }
+  .contact__content p,
+  .contact__content span {
+    font-size: 16px;
+  }
+  .contact__logos {
+    width: auto;
+    height: auto;
+    position: static;
+    margin-top: 20px;
+  }
+  .schedule__content {
+    flex-direction: column;
+  }
+  .border__content {
+    justify-content: center;
+    padding: 47px 0px;
+  }
+}
